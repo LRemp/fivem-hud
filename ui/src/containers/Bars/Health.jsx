@@ -10,8 +10,14 @@ import '../Default/Main.scss';
 ///////////////////////////
 export default function Health() {
 	const values = useSelector(state => state.Default);
+	const barInner = {
+		backgroundColor: "green",
+		width: values.health+"%",
+		height: "100%"
+	}
 	return (
 		<div className="health-bar">
+			<div style={barInner}></div>
         </div>
 	);
 }

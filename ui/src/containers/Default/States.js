@@ -3,6 +3,14 @@
 ///////////////////////////
 const initialState = {
 	isShowing: true,
+	health: 100,
+	armour: 100,
+	hunger: 100,
+	thirst: 100,
+	drunkness: 100,
+	voiceMode: 0,
+	isTalking: false,
+
 };
 
 ///////////////////////////
