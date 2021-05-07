@@ -1,0 +1,49 @@
+///////////////////////////
+///// Main Window /////
+///////////////////////////
+.mainWindow {
+	width: 100%;
+	min-height: 100vh;
+}
+
+.health-bar {
+	width: 48%;
+	height: 37%;
+	border: 0.25vh solid grey;
+	background-color: chartreuse;
+}
+
+.armour-bar {
+	width: 48%;
+	height: 37%;
+	border: 0.25vh solid grey;
+	background-color: lightblue;
+}
+
+.hunger-bar {
+	width: 18%;
+	height: 37%;
+	border: 0.25vh solid grey;
+	background-color: gold;
+}
+
+.thirst-bar {
+	width: 18%;
+	height: 37%;
+	border: 0.25vh solid grey;
+	background-color: blue;
+}
+
+.drunkness-bar {
+	width: 18%;
+	height: 37%;
+	border: 0.25vh solid grey;
+	background-color: brown;
+}
+
+.voice-bar {
+	width: 38%;
+	height: 37%;
+	border: 0.25vh solid grey;
+	background-color: rgb(155, 155, 155);
+}

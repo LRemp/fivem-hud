@@ -1,0 +1,12 @@
+///////////////////////////
+///// Imports /////
+///////////////////////////
+import { combineReducers } from 'redux';
+import Default from './containers/Default/States';
+
+///////////////////////////
+///// Reducer /////
+///////////////////////////
+export default combineReducers({
+	Default,
+});

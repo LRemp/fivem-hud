@@ -1,0 +1,8 @@
+///////////////////////////
+///// Config /////
+///////////////////////////
+const Config = {
+	resName: 'ng_resource',
+};
+
+export default Config;

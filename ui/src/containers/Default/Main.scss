@@ -1,0 +1,22 @@
+///////////////////////////
+///// Variables /////
+///////////////////////////
+
+///////////////////////////
+///// Values /////
+///////////////////////////
+.container {
+	opacity: 0;
+	position: absolute;
+	height: 3vh;
+	width: 25vh;
+	bottom: 0.3vh;
+	left: 2.75vh;
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: rgba(0, 0, 0, 0.5);*/
+}
+
+.container-Show {
+	opacity: 1;
+}
