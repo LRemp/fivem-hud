@@ -13,6 +13,9 @@ import bk from '../../Untitled.png';
 Nui.registerEmit('toggle', data => {
 	store.dispatch({ type: 'toggle', value: data.value });
 });
+Nui.registerEmit('updateValue', data=> {
+	store.dispatch({ type: 'updateValue', values: data.values });
+})
 
 ///////////////////////////
 ///// Main /////

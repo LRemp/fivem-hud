@@ -23,6 +23,13 @@ const Default = (state = initialState, data) => {
 				...state,
 				isShowing: data.value,
 			};
+		case 'updateValue':
+			for(var item in data.values){
+				state[item] = data.values[item];
+			}
+			return {
+				...state
+			}
 		default:
 			return state;
 	}

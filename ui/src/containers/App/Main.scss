@@ -1,49 +1,52 @@
 ///////////////////////////
 ///// Main Window /////
 ///////////////////////////
+$border: 2px solid grey;
+$barBackground: rgb(155, 155, 155);
+
 .mainWindow {
 	width: 100%;
 	min-height: 100vh;
 }
 
 .health-bar {
-	width: 48%;
+	width: 49%;
 	height: 50%;
-	border: 0.25vh solid grey;
-	background-color: rgb(155, 155, 155);
+	border: $border;
+	background-color: $barBackground;
 }
 
 .armour-bar {
 	width: 48%;
 	height: 50%;
-	border: 0.25vh solid grey;
-	background-color: rgb(155, 155, 155);
+	border: $border;
+	background-color: $barBackground;
 }
 
 .hunger-bar {
-	width: 18%;
+	width: 18.5%;
 	height: 50%;
-	border: 0.25vh solid grey;
-	background-color: rgb(155, 155, 155);
+	border: $border;
+	background-color: $barBackground;
 }
 
 .thirst-bar {
-	width: 18%;
+	width: 18.5%;
 	height: 50%;
-	border: 0.25vh solid grey;
-	background-color: rgb(155, 155, 155);
+	border: $border;
+	background-color: $barBackground;
 }
 
 .drunkness-bar {
-	width: 18%;
+	width: 18.5%;
 	height: 50%;
-	border: 0.25vh solid grey;
-	background-color: rgb(155, 155, 155);
+	border: $border;
+	background-color: $barBackground;
 }
 
 .voice-bar {
-	width: 38%;
+	width: 38.5%;
 	height: 50%;
-	border: 0.25vh solid grey;
-	background-color: rgb(155, 155, 155);
+	border: $border;
+	background-color: $barBackground;
 }

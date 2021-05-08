@@ -3,8 +3,8 @@ fx_version "adamant"
 games {"gta5"}
 
 client_scripts {
-	"client.lua",
-
+	'config.lua',
+	'client/main.lua'
 }
 
 ui_page "ui/build/index.html"
